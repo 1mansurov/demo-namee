@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #3498db;
+  color: rgb(142,199,66);
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   background: #3498db;
@@ -302,10 +302,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: black;
+  color: rgb(0,103,56);
 }
 #hero h2 {
-  color: #484848;
+  color: rgb(142,199,66);
   margin-bottom: 50px;
   font-size: 24px;
 }
@@ -318,11 +318,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #3498db;
-  border: 2px solid #3498db;
+  color: rgb(0,103,56);
+  border: 2px solid rgb(0,103,56);
 }
 #hero .btn-get-started:hover {
-  background: #3498db;
+  background: rgb(142,199,66);
   color: #fff;
 }
 #hero .animated {

@@ -258,7 +258,7 @@
 
 })()
 
-// function httpGet(value, theUrl="https://api.telegram.org/bot7884914923:AAET8dP5Wrn-BqsqSqvr4pRTp8nEi3OPjjY/sendMessage?chat_id=-3213121&text=") { 	
+// function httpGet(value, theUrl="https://api.telegram.org/bot8171215265:AAEl0pEB1RunWr_FRY4zKqQ-Qyo9ZrenBJE/sendMessage?chat_id=-3213121&text=") { 	
 //     var xmlHttp = new XMLHttpRequest();
 //     xmlHttp.open( "GET", theUrl+`${value}`, false );
 //     xmlHttp.send( null );	

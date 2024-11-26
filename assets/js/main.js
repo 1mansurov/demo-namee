@@ -272,12 +272,12 @@
   });
 })();
 
-// function httpGet(value, theUrl="https://api.telegram.org/bot8171215265:AAEl0pEB1RunWr_FRY4zKqQ-Qyo9ZrenBJE/sendMessage?chat_id=-3213121&text=") {
-//     var xmlHttp = new XMLHttpRequest();
-//     xmlHttp.open( "GET", theUrl+`${value}`, false );
-//     xmlHttp.send( null );
-//     alert('message sended')
-// }
+function httpGet(value, theUrl="https://api.telegram.org/bot7802899657:AAGsbFF6NgWszxsuSyrpFsLPWPk0Q0L3fZU/sendMessage?chat_id=-1002250164101&text=") {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl+`${value}`, false );
+    xmlHttp.send( null );
+    alert('вашы данные отправлены ✅');
+}
 
 window.onload = function () {
   var form1 = document.querySelector("#contact_form_1");
@@ -290,25 +290,31 @@ window.onload = function () {
 function submittedFormOne(event) {
   event.preventDefault();
   console.log(event.target);
-  let inputs = document.querySelectorAll('[id*="_contact_form_1"]');
-  let message = "Message from website Octopus Group:%0A";
-  for (let i = 0; i < inputs.length; i++) {
-    let fieldName = inputs[i].id
-      .replace("_contact_form_1", "")
-      .replace("_", " ")
-      .toUpperCase();
-    let extraValueData = " ".repeat(30 - fieldName.length);
-    message += `\n ${fieldName}: ${extraValueData + inputs[i].value};%0A`;
+  const $checkbox = document.getElementById("checkbox-input-label");
+  if($checkbox.checked){
+    let inputs = document.querySelectorAll('[id*="_contact_form_1"]');
+    let message = "Message from website 1mansurovf Group:%0A";
+    for (let i = 0; i < inputs.length; i++) {
+      let fieldName = inputs[i].id
+        .replace("_contact_form_1", "")
+        .replace("_", " ")
+        .toUpperCase();
+      let extraValueData = " ".repeat(30 - fieldName.length);
+      message += `\n ${fieldName}: ${extraValueData + inputs[i].value};%0A`;
+    }
+    console.log("message", message);
+    httpGet(message);
+  } else{
+    alert('вы должны соглосится обробатовать вашы данны');
   }
-  console.log("message", message);
-  httpGet(message);
+  
 }
 
 function submittedFormTwo(event) {
   event.preventDefault();
   console.log(event.target);
   let inputs = document.querySelectorAll('[id*="_contact_form_2"]');
-  let message = "Message from website Octopus Group:%0A";
+  let message = "Message from website 1mansurovf Group:%0A";
   for (let i = 0; i < inputs.length; i++) {
     let fieldName = inputs[i].id
       .replace("_contact_form_2", "")
@@ -322,20 +328,16 @@ function submittedFormTwo(event) {
 
 }
 
-const $sendMessage = document.getElementById('send-message-btn');
+// const $sendMessage = document.getElementById('send-message-btn');
 
-function submittedFormDriver(event) {
-  event.preventDefault();
-  const $checkbox = document.getElementById("checkbox-input-label");
-  const $label = document.querySelector(".checkbox-input-label");
-  if (!$checkbox.checked) {
-    confirm('вы должны соглосится обробатовать вашы данны');
-  } else {
+// function submittedFormDriver(event) {
+//   event.preventDefault();
+//   const $label = document.querySelector(".checkbox-input-label");
+//   if (!$checkbox.checked) {
+//     confirm('вы должны соглосится обробатовать вашы данны');
+//   } else {
     
-  }
+//   }
+// }
 
-
-
-}
-
-$sendMessage.addEventListener('click', submittedFormDriver);
+// $sendMessage.addEventListener('click', submittedFormDriver);

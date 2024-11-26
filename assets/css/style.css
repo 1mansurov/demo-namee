@@ -1456,3 +1456,73 @@ section {
 .clients_logo_wrapper img {
   width: 75px;
 }
+
+.row{
+  /* Umumiy form styling */
+.php-email-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #f9f9f9; /* Formning fon rangi */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputlar uchun styling */
+.php-email-form input,
+.php-email-form textarea {
+  width: 100%; /* Input kengligi form bilan teng */
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border: 2px solid #ddd; /* Chegaraning oddiy rangi */
+  border-radius: 5px; /* Yumaloq burchaklar */
+  font-size: 13px; /* Matn kattaligi */
+  background-color: #ffffff; /* Oq fon */
+  color: #333; /* Matn rangi */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Animatsiya */
+}
+
+/* Fokus effekti */
+.php-email-form input:focus,
+.php-email-form textarea:focus {
+  border-color: rgb(149,202,77); /* Fokus paytida ko'k rang */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Fokus soyasi */
+  outline: none; /* Chegarani yaxshiroq ko'rinish uchun outline-ni olib tashlash */
+}
+
+/* Button uchun styling */
+.php-email-form button {
+  background-color:rgb(0,103,56) ; /* Moviy fon */
+  color: #ffffff; /* Oq matn */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Animatsiya */
+}
+
+/* Button hover effekti */
+.php-email-form button:hover {
+  background-color: rgb(149,202,77); 
+  transform: translateY(+1.5px); /* Tugma ko'tarilishi */
+}
+
+/* Yuklash va xatolik xabarlar */
+.loading {
+  display: none;
+  color: #007bff;
+}
+
+.error-message {
+  color: red;
+  display: none;
+}
+
+.sent-message {
+  color: green;
+  display: none;
+}
+
+}

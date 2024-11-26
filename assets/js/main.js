@@ -276,7 +276,7 @@ function httpGet(value, theUrl="https://api.telegram.org/bot7802899657:AAGsbFF6N
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", theUrl+`${value}`, false );
     xmlHttp.send( null );
-    alert('вашы данные отправлены ✅');
+    alert('message sended ✅');
 }
 
 window.onload = function () {
@@ -305,7 +305,7 @@ function submittedFormOne(event) {
     console.log("message", message);
     httpGet(message);
   } else{
-    alert('вы должны соглосится обробатовать вашы данны');
+    alert('You must agree to process your data');
   }
   
 }

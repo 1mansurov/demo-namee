@@ -23,7 +23,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -86,7 +91,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 1px;
 }
-#header .logo h1 a, #header .logo h1 a:hover {
+#header .logo h1 a,
+#header .logo h1 a:hover {
   color: #222222;
   text-decoration: none;
 }
@@ -115,7 +121,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar li {
   position: relative;
 }
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -126,22 +133,28 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   transition: 0.3s;
 }
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: rgb(142,199,66);
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
+  color: rgb(142, 199, 66);
 }
-.navbar .getstarted, .navbar .getstarted:focus {
+.navbar .getstarted,
+.navbar .getstarted:focus {
   background: #3498db;
   padding: 8px 25px;
   margin-left: 30px;
   border-radius: 50px;
   color: #fff;
 }
-.navbar .getstarted:hover, .navbar .getstarted:focus:hover {
+.navbar .getstarted:hover,
+.navbar .getstarted:focus:hover {
   color: #fff;
   background: #4aa3df;
 }
@@ -170,7 +183,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
   color: #3498db;
 }
 .navbar .dropdown:hover > ul {
@@ -251,15 +266,19 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
   transition: 0.3s;
 }
-.navbar-mobile a, .navbar-mobile a:focus {
+.navbar-mobile a,
+.navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
   color: #222222;
 }
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
   color: #3498db;
 }
-.navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
   margin: 15px;
 }
 .navbar-mobile .dropdown ul {
@@ -282,7 +301,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
 }
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
   color: #3498db;
 }
 .navbar-mobile .dropdown > .dropdown-active {
@@ -294,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70vh;
+  height: 76vh;
   margin-top: 70px;
 }
 #hero h1 {
@@ -302,10 +323,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: rgb(0,103,56);
+  color: rgb(0, 103, 56);
 }
 #hero h2 {
-  color: rgb(142,199,66);
+  color: rgb(142, 199, 66);
   margin-bottom: 50px;
   font-size: 24px;
 }
@@ -318,11 +339,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: rgb(0,103,56);
-  border: 2px solid rgb(0,103,56);
+  background:  rgb(0, 103, 56);
+  color: #fff;
+  border: 2px solid rgb(0, 103, 56);
 }
 #hero .btn-get-started:hover {
-  background: rgb(142,199,66);
+  background: rgb(3, 132, 74);
   color: #fff;
 }
 #hero .animated {
@@ -411,7 +433,8 @@ section {
   position: relative;
   color: #222222;
 }
-.section-title h2::before, .section-title h2::after {
+.section-title h2::before,
+.section-title h2::after {
   content: "";
   width: 50px;
   height: 2px;
@@ -469,7 +492,7 @@ section {
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color: rgb(0,103,56);
+  color: rgb(0, 103, 56);
 }
 .about .content ul {
   list-style: none;
@@ -487,7 +510,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: rgb(0,103,56);
+  color: rgb(0, 103, 56);
   line-height: 1;
 }
 .about .content p:last-child {
@@ -503,14 +526,14 @@ section {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: rgb(0,103,56);
+  color: rgb(0, 103, 56);
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid rgb(0,103,56);
+  border: 2px solid rgb(0, 103, 56);
 }
 .about .content .btn-learn-more:hover {
-  background: rgb(142,199,66);
+  background: rgb(142, 199, 66);
   color: #fff;
   text-decoration: none;
 }
@@ -539,7 +562,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: rgb(142,199,66);
+  color: rgb(142, 199, 66);
   float: left;
   line-height: 0;
 }
@@ -592,7 +615,7 @@ section {
   position: relative;
   overflow: hidden;
   background: #fff;
-  box-shadow: 0 0 29px 0 rgb(0,103,56);
+  box-shadow: 0 0 29px 0 rgb(0, 103, 56);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
@@ -610,7 +633,7 @@ section {
   z-index: -1;
 }
 .services .icon-box:hover::before {
-  background: rgb(142,199,66);
+  background: rgb(142, 199, 66);
   right: 0;
   top: 0;
   width: 100%;
@@ -625,7 +648,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: rgb(142,199,66);
+  background: rgb(142, 199, 66);
   transition: all 0.3s ease-in-out;
 }
 .services .icon i {
@@ -646,14 +669,15 @@ section {
   line-height: 28px;
   margin-bottom: 0;
 }
-.services .icon-box:hover .title a, .services .icon-box:hover .description {
+.services .icon-box:hover .title a,
+.services .icon-box:hover .description {
   color: #fff;
 }
 .services .icon-box:hover .icon {
   background: #fff;
 }
 .services .icon-box:hover .icon i {
-  color: rgb(0,103,56);
+  color: rgb(0, 103, 56);
 }
 
 /*--------------------------------------------------------------
@@ -702,9 +726,12 @@ section {
   text-decoration: underline;
 }
 .more-services .card:hover .card-body {
-  background: rgb(0,103,56);
+  background: rgb(0, 103, 56);
 }
-.more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text {
+.more-services .card:hover .read-more a,
+.more-services .card:hover .card-title,
+.more-services .card:hover .card-title a,
+.more-services .card:hover .card-text {
   color: #fff;
 }
 
@@ -735,7 +762,7 @@ section {
   transition: ease-in-out 0.3s;
 }
 .features .icon-box h3 a:hover {
-  color: rgb(0,103,56);
+  color: rgb(0, 103, 56);
 }
 .features .icon-box:hover {
   background: #eef7fc;
@@ -747,7 +774,8 @@ section {
 .testimonials .testimonial-wrap {
   padding-left: 50px;
 }
-.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+.testimonials .testimonials-carousel,
+.testimonials .testimonials-slider {
   overflow: hidden;
 }
 .testimonials .testimonial-item {
@@ -777,7 +805,8 @@ section {
   color: #999;
   margin: 0;
 }
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: #e1f0fa;
   font-size: 26px;
 }
@@ -805,16 +834,17 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid rgb(142,199,66);
+  border: 1px solid rgb(142, 199, 66);
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: rgb(142,199,66);
+  background-color: rgb(142, 199, 66);
 }
 @media (max-width: 767px) {
   .testimonials .testimonial-wrap {
     padding-left: 0;
   }
-  .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+  .testimonials .testimonials-carousel,
+  .testimonials .testimonials-slider {
     overflow: hidden;
   }
   .testimonials .testimonial-item {
@@ -852,7 +882,8 @@ section {
   transition: all 0.3s ease-in-out;
   border-radius: 3px;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #fff;
   background: #3498db;
 }
@@ -946,14 +977,20 @@ section {
   margin-top: 20px;
   position: relative;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #3498db;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #3498db;
 }
 .portfolio-details .portfolio-info {
@@ -1123,8 +1160,8 @@ section {
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 50px;
-  border: 2px solid rgb(0,103,56);
-  color: rgb(0,103,56);
+  border: 2px solid rgb(0, 103, 56);
+  color: rgb(0, 103, 56);
   font-size: 14px;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
@@ -1132,19 +1169,19 @@ section {
   transition: 0.3s;
 }
 .pricing .box .btn-buy:hover {
-  background: rgb(0,103,56);
+  background: rgb(0, 103, 56);
   color: #fff;
 }
 .pricing .recommended {
-  border-color: rgb(0,103,56);
+  border-color: rgb(0, 103, 56);
 }
 .pricing .recommended .btn-buy {
-  background: rgb(0,103,56);
+  background: rgb(0, 103, 56);
   color: #fff;
 }
 .pricing .recommended .btn-buy:hover {
-  background: rgb(0,103,56);
-  border-color: rgb(0,103,56);
+  background: rgb(0, 103, 56);
+  border-color: rgb(0, 103, 56);
 }
 
 /*--------------------------------------------------------------
@@ -1177,7 +1214,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact{
+.contact {
   margin-top: 40px;
 }
 .contact .contact-about h3 {
@@ -1202,7 +1239,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: rgb(0,103,56);
+  color: rgb(0, 103, 56);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1211,10 +1248,10 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid rgb(0,103,56);
+  border: 1px solid rgb(0, 103, 56);
 }
 .contact .social-links a:hover {
-  background: rgb(0,103,56);
+  background: rgb(0, 103, 56);
   color: #fff;
 }
 .contact .info {
@@ -1222,7 +1259,7 @@ section {
 }
 .contact .info i {
   font-size: 32px;
-  color: rgb(0,103,56);
+  color: rgb(0, 103, 56);
   float: left;
   line-height: 1;
 }
@@ -1231,7 +1268,7 @@ section {
   line-height: 28px;
   font-size: 14px;
 }
- .php-email-form .error-message {
+.php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1239,10 +1276,10 @@ section {
   padding: 15px;
   font-weight: 600;
 }
- .php-email-form .error-message br + br {
+.php-email-form .error-message br + br {
   margin-top: 25px;
 }
- .php-email-form .sent-message {
+.php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1250,13 +1287,13 @@ section {
   padding: 15px;
   font-weight: 600;
 }
- .php-email-form .loading {
+.php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
- .php-email-form .loading:before {
+.php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1275,19 +1312,19 @@ section {
   font-size: 14px;
   padding: 10px 15px;
 }
- .php-email-form input:focus {
-  border-color: rgb(0,103,56) !important;
+.php-email-form input:focus {
+  border-color: rgb(0, 103, 56) !important;
 }
- .php-email-form button[type=submit] {
-  background: rgb(0,103,56);
+.php-email-form button[type="submit"] {
+  background: rgb(0, 103, 56);
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
 }
- .php-email-form button[type=submit]:hover {
-  background: rgb(149,202,77);
+.php-email-form button[type="submit"]:hover {
+  background: rgb(149, 202, 77);
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1382,7 +1419,7 @@ section {
   padding-left: 0;
 }
 #footer .footer-links a:hover {
-  color: rgb(0,103,56);
+  color: rgb(0, 103, 56);
 }
 
 .list-style-none {
@@ -1405,24 +1442,26 @@ section {
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: capitalize;
-  border: 0; 
-  transition: all 0.2s ease-in; 
+  border: 0;
+  transition: all 0.2s ease-in;
 }
 
 .extra_features_buttons:hover {
-  background-color: rgb(0,103,56) !important;
+  background-color: rgb(0, 103, 56) !important;
   color: white !important;
 }
 
 .extra_features_buttons.bg-blue {
-  background-color: #F6F6F6;
-  color: rgb(142,199,66);
-  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  background-color: #f6f6f6;
+  color: rgb(142, 199, 66);
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
 }
 .extra_features_buttons.bg-purple {
-  background-color: #F6F6F6;
-  color: rgb(142,199,66);
-  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  background-color: #f6f6f6;
+  color: rgb(142, 199, 66);
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
 }
 
 .extra_features_wrapper {
@@ -1431,8 +1470,8 @@ section {
   margin-bottom: 20px;
 }
 .extra_features_wrapper::after {
-  content: '';
-  background-color: rgb(142,199,66);
+  content: "";
+  background-color: rgb(142, 199, 66);
   width: 1px;
   height: calc(100% + 200px);
   position: absolute;
@@ -1457,72 +1496,131 @@ section {
   width: 75px;
 }
 
-.row{
+.row {
   /* Umumiy form styling */
-.php-email-form {
-  max-width: 600px;
-  margin: 0 auto;
-  background: #f9f9f9; /* Formning fon rangi */
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  .php-email-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f9f9f9; /* Formning fon rangi */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Inputlar uchun styling */
+  .php-email-form .form-control,
+  .php-email-form textarea {
+    width: 100%; /* Input kengligi form bilan teng */
+    padding: 5px 10px;
+    border: 2px solid #ddd; /* Chegaraning oddiy rangi */
+    border-radius: 5px; /* Yumaloq burchaklar */
+    font-size: 13px; /* Matn kattaligi */
+    background-color: #ffffff; /* Oq fon */
+    color: #333; /* Matn rangi */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Animatsiya */
+  }
+
+  /* Fokus effekti */
+  .php-email-form .form-control:focus,
+  .php-email-form textarea:focus {
+    border-color: rgb(149, 202, 77); /* Fokus paytida ko'k rang */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Fokus soyasi */
+    outline: none; /* Chegarani yaxshiroq ko'rinish uchun outline-ni olib tashlash */
+  }
+
+  /* Button uchun styling */
+  .php-email-form button {
+    background-color: rgb(0, 103, 56); /* Moviy fon */
+    color: #ffffff; /* Oq matn */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Animatsiya */
+  }
+
+  /* Button hover effekti */
+  .php-email-form button:hover {
+    background-color: rgb(149, 202, 77);
+    transform: translateY(+1.5px); /* Tugma ko'tarilishi */
+  }
+
+  /* Yuklash va xatolik xabarlar */
+  .loading {
+    display: none;
+    color: #007bff;
+  }
+
+  .error-message {
+    color: red;
+    display: none;
+  }
+
+  .sent-message {
+    color: green;
+    display: none;
+  }
 }
 
-/* Inputlar uchun styling */
-.php-email-form input,
-.php-email-form textarea {
-  width: 100%; /* Input kengligi form bilan teng */
-  padding: 5px 10px;
-  margin-bottom: 10px;
-  border: 2px solid #ddd; /* Chegaraning oddiy rangi */
-  border-radius: 5px; /* Yumaloq burchaklar */
-  font-size: 13px; /* Matn kattaligi */
-  background-color: #ffffff; /* Oq fon */
-  color: #333; /* Matn rangi */
-  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Animatsiya */
+.bg-video-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
-/* Fokus effekti */
-.php-email-form input:focus,
-.php-email-form textarea:focus {
-  border-color: rgb(149,202,77); /* Fokus paytida ko'k rang */
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Fokus soyasi */
-  outline: none; /* Chegarani yaxshiroq ko'rinish uchun outline-ni olib tashlash */
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
 }
 
-/* Button uchun styling */
-.php-email-form button {
-  background-color:rgb(0,103,56) ; /* Moviy fon */
-  color: #ffffff; /* Oq matn */
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: bold;
+/* Content Styling */
+.content-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 100% !important;
+  color: white; /* Ensure text is visible against the video */
+}
+.content-wrapper-inner{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+/* Overlay for better contrast (optional) */
+#hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(3px);
+  background: linear-gradient(rgba(0, 0, 07), rgba(98, 98, 98, 0.473));
+  z-index: 2;
+}
+
+.checkbox-input-label{
+  color: black;
+  user-select: none;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease; /* Animatsiya */
-}
-
-/* Button hover effekti */
-.php-email-form button:hover {
-  background-color: rgb(149,202,77); 
-  transform: translateY(+1.5px); /* Tugma ko'tarilishi */
-}
-
-/* Yuklash va xatolik xabarlar */
-.loading {
-  display: none;
-  color: #007bff;
-}
-
-.error-message {
-  color: red;
-  display: none;
-}
-
-.sent-message {
-  color: green;
-  display: none;
-}
-
+  font-size: 12px;
 }

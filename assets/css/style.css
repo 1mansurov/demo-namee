@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #3498db;
+  background: rgb(142, 199, 66);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -339,7 +339,7 @@ h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  background:  rgb(0, 103, 56);
+  background: rgb(0, 103, 56);
   color: #fff;
   border: 2px solid rgb(0, 103, 56);
 }
@@ -350,7 +350,7 @@ h6 {
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
-#hero .h3{
+#hero .h3 {
   color: red;
 }
 @media (min-width: 1024px) {
@@ -1595,7 +1595,7 @@ section {
   height: 100% !important;
   color: white; /* Ensure text is visible against the video */
 }
-.content-wrapper-inner{
+.content-wrapper-inner {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -1610,7 +1610,7 @@ section {
 
 /* Overlay for better contrast (optional) */
 #hero::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -1621,7 +1621,7 @@ section {
   z-index: 2;
 }
 
-.checkbox-input-label{
+.checkbox-input-label {
   color: black;
   user-select: none;
   cursor: pointer;

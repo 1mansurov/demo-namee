@@ -1804,6 +1804,9 @@ section {
   .modal-title{
     margin-top: 30px !important;
   }
+  .offer-modal{
+    margin-top: 30px !important;
+  }
 }
 @media (max-width: 450px) {
   .modal-title{
@@ -1815,9 +1818,16 @@ section {
   .tk_text{
     display: none !important;
   }
+  .offer-modal{
+    margin-top: 30px !important;
+  }
+  
 }
 @media (max-width: 460px) {
   .modal-title{
+    margin-top: 30px !important;
+  }
+  .offer-modal{
     margin-top: 30px !important;
   }
   
@@ -1827,11 +1837,17 @@ section {
   .modal-title{
     margin-top: 35px !important;
   }
+  .offer-modal{
+    margin-top: 30px !important;
+  }
   
 }
 @media (max-width: 410px) {
   .modal-title{
     margin-top: 35px !important;
+  }
+  .offer-modal{
+    margin-top: 30px !important;
   }
   
 }
@@ -1840,12 +1856,18 @@ section {
   .modal-title{
     margin-top: 35px !important;
   }
+  .offer-modal{
+    margin-top: 30px !important;
+  }
   
 }
 
 @media (max-width: 400px) {
   .modal-title{
     margin-top: 35px !important;
+  }
+  .offer-modal{
+    margin-top: 30px !important;
   }
   
 }

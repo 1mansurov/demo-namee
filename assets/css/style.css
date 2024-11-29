@@ -1805,7 +1805,7 @@ section {
     margin-top: 30px !important;
   }
   .offer-modal{
-    padding-top: 20px !important;
+    margin-top: 30px !important;
   }
 }
 @media (max-width: 450px) {
@@ -1819,7 +1819,7 @@ section {
     display: none !important;
   }
   .offer-modal{
-    padding-top: 20px !important;
+    margin-top: 30px !important;
   }
   
 }
@@ -1828,7 +1828,7 @@ section {
     margin-top: 30px !important;
   }
   .offer-modal{
-    padding-top: 20px !important;
+    margin-top: 30px !important;
   }
   
 }
@@ -1838,7 +1838,7 @@ section {
     margin-top: 35px !important;
   }
   .offer-modal{
-  padding-top: 20px !important;
+    margin-top: 30px !important;
   }
   
 }
@@ -1847,7 +1847,7 @@ section {
     margin-top: 35px !important;
   }
   .offer-modal{
-    padding-top: 20px !important;
+    margin-top: 30px !important;
   }
   
 }
@@ -1856,8 +1856,8 @@ section {
   .modal-title{
     margin-top: 35px !important;
   }
-  .offer-modal{
-    padding-top: 20px !important;
+   .offer-modal{
+    margin-top: 30px !important;
   }
   
 }
@@ -1865,19 +1865,6 @@ section {
 @media (max-width: 400px) {
   .modal-title{
     margin-top: 35px !important;
-  }
-  .offer-modal{
-    padding-top: 20px !important;
-  }
-  
-}
-
-@media (max-width: 450px) {
-  .modal-title{
-    margin-top: 35px !important;
-  }
-  .offer-modal{
-    padding-top: 20px !important;
   }
   
 }

@@ -1835,3 +1835,17 @@ section {
   }
   
 }
+
+@media (max-width: 466px) {
+  .modal-title{
+    margin-top: 35px !important;
+  }
+  
+}
+
+@media (max-width: 400px) {
+  .modal-title{
+    margin-top: 35px !important;
+  }
+  
+}

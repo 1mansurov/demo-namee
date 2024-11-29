@@ -1419,6 +1419,7 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+  
 }
 
 /*--------------------------------------------------------------
@@ -1800,10 +1801,13 @@ section {
   .tk_text{
     display: none !important;
   }
+  .modal-title{
+    margin-top: 30px !important;
+  }
 }
 @media (max-width: 450px) {
   .modal-title{
-    margin-top: 50px !important;
+    margin-top: 30px !important;
   }
   .tk{
     display: none !important;
@@ -1811,4 +1815,23 @@ section {
   .tk_text{
     display: none !important;
   }
+}
+@media (max-width: 460px) {
+  .modal-title{
+    margin-top: 30px !important;
+  }
+  
+}
+
+@media (max-width: 420px) {
+  .modal-title{
+    margin-top: 35px !important;
+  }
+  
+}
+@media (max-width: 410px) {
+  .modal-title{
+    margin-top: 35px !important;
+  }
+  
 }

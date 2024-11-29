@@ -12,6 +12,10 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
+.logo_img{
+  width: 200px;
+  height: 300px;
+}
 
 a {
   color: #3498db;
@@ -477,6 +481,13 @@ section {
 .clients img:hover {
   filter: none;
   transform: scale(1.1);
+}
+.clients-logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
 }
 @media (max-width: 768px) {
   .clients img {
@@ -1671,3 +1682,100 @@ section {
   max-height: 100px; /* Kerakli balandlik */
   opacity: 1;
 }
+
+.offer-modal {
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 25px;
+  max-width: 90%;
+  width: 500px;
+  max-height: 80%;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding-top: 220px !important;
+
+}
+
+/* Custom Scrollbar */
+.offer-modal::-webkit-scrollbar {
+  width: 8px;
+}
+
+.offer-modal::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.offer-modal::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.offer-modal::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: none;
+}
+
+/* Close Button */
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.modal-close:hover {
+  color: #ff5252;
+}
+
+/* Paragraph Styling */
+.offer-modal p {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Accept Offer Button */
+.accept-offer-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: center;
+}
+
+.accept-offer-btn:hover {
+  background-color: #45a049;
+}
+

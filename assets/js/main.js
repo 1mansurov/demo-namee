@@ -272,11 +272,14 @@
   });
 })();
 
-function httpGet(value, theUrl="https://api.telegram.org/bot7802899657:AAGsbFF6NgWszxsuSyrpFsLPWPk0Q0L3fZU/sendMessage?chat_id=-1002250164101&text=") {
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open( "GET", theUrl+`${value}`, false );
-    xmlHttp.send( null );
-    alert('message sended ✅');
+function httpGet(
+  value,
+  theUrl = "https://api.telegram.org/bot7802899657:AAGsbFF6NgWszxsuSyrpFsLPWPk0Q0L3fZU/sendMessage?chat_id=-1002250164101&text="
+) {
+  var xmlHttp = new XMLHttpRequest();
+  xmlHttp.open("GET", theUrl + `${value}`, false);
+  xmlHttp.send(null);
+  alert("message sended ✅");
 }
 
 window.onload = function () {
@@ -287,11 +290,38 @@ window.onload = function () {
   form2.onsubmit = submittedFormTwo.bind(form2);
 };
 
+const $checkbox = document.getElementById("checkbox-input-label");
+const modalClose = document.querySelector(".modal-close");
+const modalOverlay = document.querySelector(".modal-overlay");
+const offerModal = document.querySelector(".offer-modal");
+
+modalClose.addEventListener("click", () => {
+  modalOverlay.style.display = "none";
+  offerModal.style.display = "none";
+});
+
+modalOverlay.addEventListener("click", () => {
+  modalOverlay.style.display = "none";
+  offerModal.style.display = "none";
+});
+
+const acceptOfferBtn = document.querySelector(".accept-offer-btn");
+acceptOfferBtn.addEventListener("click", () => {
+  modalOverlay.style.display = "none";
+  offerModal.style.display = "none";
+});
+
+$checkbox.addEventListener("change", () => {
+  if ($checkbox.checked) {
+    offerModal.style.display = "flex";
+    modalOverlay.style.display = "block";
+  }
+})
+
 function submittedFormOne(event) {
   event.preventDefault();
   console.log(event.target);
-  const $checkbox = document.getElementById("checkbox-input-label");
-  if($checkbox.checked){
+  if ($checkbox.checked) {
     let inputs = document.querySelectorAll('[id*="_contact_form_1"]');
     let message = "Message from website 1mansurovf Group:%0A";
     for (let i = 0; i < inputs.length; i++) {
@@ -304,10 +334,9 @@ function submittedFormOne(event) {
     }
     console.log("message", message);
     httpGet(message);
-  } else{
-    alert('You must agree to process your data');
+  } else {
+    alert("You must agree to process your data");
   }
-  
 }
 
 function submittedFormTwo(event) {
@@ -325,20 +354,4 @@ function submittedFormTwo(event) {
   }
   console.log("message", message);
   httpGet(message);
-
 }
-
-// const $sendMessage = document.getElementById('send-message-btn');
-
-// function submittedFormDriver(event) {
-//   event.preventDefault();
-//   const $label = document.querySelector(".checkbox-input-label");
-//   if (!$checkbox.checked) {
-//     confirm('вы должны соглосится обробатовать вашы данны');
-//   } else {
-    
-//   }
-// }
-
-// $sendMessage.addEventListener('click', submittedFormDriver);
-

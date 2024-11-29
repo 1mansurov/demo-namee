@@ -620,6 +620,13 @@ section {
     max-width: 100%;
   }
 }
+@media (max-width: 451px) {
+  .counts .image img {
+    max-width: 100%;
+    
+  }
+  
+}
 
 /*--------------------------------------------------------------
 # Services
@@ -633,6 +640,9 @@ section {
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
+}
+.bi-car-front-fill{
+  color:black;
 }
 .services .icon-box::before {
   content: "";
@@ -856,6 +866,7 @@ section {
 @media (max-width: 767px) {
   .testimonials .testimonial-wrap {
     padding-left: 0;
+    
   }
   .testimonials .testimonials-carousel,
   .testimonials .testimonials-slider {
@@ -1779,3 +1790,8 @@ section {
   background-color: #45a049;
 }
 
+@media (max-width: 440px) {
+  .media{
+    margin-top: 200px !important;
+  }
+}

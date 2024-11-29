@@ -1794,9 +1794,21 @@ section {
   .media{
     margin-top: 200px !important;
   }
+  .tk{
+    display: none !important;
+  }
+  .tk_text{
+    display: none !important;
+  }
 }
 @media (max-width: 450px) {
   .modal-title{
     margin-top: 50px !important;
+  }
+  .tk{
+    display: none !important;
+  }
+  .tk_text{
+    display: none !important;
   }
 }
